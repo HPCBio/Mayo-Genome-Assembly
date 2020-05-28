@@ -15,8 +15,8 @@ gfatools gfa2fa dataset3/quarter.asm.p_ctg.gfa > dataset3/quarter.asm.p_ctg.fast
 gfatools gfa2fa dataset4/tenth.asm.p_ctg.gfa > dataset4/tenth.asm.p_ctg.fasta
 
 # Convert GFA (reference graph) into FASTA (using a loop)
-for gfa in dataset*/*.p_ctg.gfa; do
-    FASTA="${gfa%.gfa}.loop.fasta"
-    gfatools gfa2fa $gfa > $FASTA
-done
+#for gfa in dataset*/*.p_ctg.gfa; do
+#    FASTA="${gfa%.gfa}.loop.fasta"
+#    gfatools gfa2fa $gfa > $FASTA
+#done
 
